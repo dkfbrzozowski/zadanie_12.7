@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900&subset=latin-ext");
+body {
+margin: 0;
+padding: 0;
+background-color: lightslategray;
+}
+* {
+box-sizing: border-box;
+font-family: 'Lato', sans-serif;
+}
+.btn-card-delete, .btn-column-delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  background-color: #F10;
+  color: white;
+  margin: 10px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+}
+
+.btn-card-edit, .btn-column-edit {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  background-color: #3CB371;
+  color: white;
+  margin: 10px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+}
+.create-column {
+  width: 200px;
+  height: 45px;
+  font-size: 20px;
+  background-color: #CCCC00;
+  margin-bottom: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.create-column:hover {
+  background-color: #CCCCFF;
+  border: 2px solid #fff;
+}
+/* BOARD */
+.board {
+  text-align: center;
+}
+.board button {
+  border-radius: 5px;
+}
+.board h1 {
+  color: #fff;
+  margin: 0;
+  padding: 30px 0;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #FFCC00;
+}
+.column-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/* COLUMN */
+.column {
+  order: 1;
+  min-width: 300px;
+  min-height: 150px;
+  background-color: lightgrey;
+  margin-left: 8px;
+  margin-top: 8px;
+  list-style: none;
+  position: relative;
+}
+.column button {
+  border-radius: 5px;
+
+}
+.column-title {
+  background-color: #FAFCF4;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+.column-add-card {
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 5px 8px;
+  display: block;
+}
+
+/* STYLE KARTY */
+.card {
+  box-sizing: border-box;
+  display: block;
+  height: 60px;
+  margin-bottom: 5px;
+  padding: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.card-list {
+  list-style: none;
+  margin: 5px;
+  padding: 0px;
+}
+.card-description {
+  margin: 2px 0;
+  height: 20px;
+  font-size: 16px;
+  color: #000;
+}
+.card-placeholder {
+  box-sizing: border-box;
+  display: block;
+  height: 60px;
+  margin-bottom: 5px;
+  border: 2px solid lightgrey;
+  background-color: lightblue;
+}
