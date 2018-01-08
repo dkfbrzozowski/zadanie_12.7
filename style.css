@@ -8,7 +8,7 @@ background-color: lightslategray;
 box-sizing: border-box;
 font-family: 'Lato', sans-serif;
 }
-.btn-card-delete, .btn-column-delete {
+.btn-delete, .btn-col-delete {
   position: absolute;
   right: 0;
   top: 0;
@@ -24,7 +24,7 @@ font-family: 'Lato', sans-serif;
   outline: none;
 }
 
-.btn-card-edit, .btn-column-edit {
+.btn-edit, .btn-col-edit {
   position: absolute;
   right: 30px;
   top: 0;
