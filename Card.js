@@ -40,7 +40,7 @@ Card.prototype = {
 	editCard: function() {
     	var self = this;
     	self.name = prompt('Edit your card:', self.name);
-    	var parentColumn = $(this.$element).closest("div[data-idnum]").attr('data-idnum');
+    	var parentColumn = $(this.element).closest('div[data-idnum]').attr('data-idnum');
     	console.log(parentColumn); 
         $.ajax({
             url: baseUrl + '/card/' + self.id,
