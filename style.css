@@ -72,6 +72,7 @@ font-family: 'Lato', sans-serif;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
 }
 
 /* COLUMN */
@@ -80,14 +81,15 @@ font-family: 'Lato', sans-serif;
   min-width: 300px;
   min-height: 150px;
   background-color: #C9C9C9;
-  margin-left: 8px;
-  margin-top: 8px;
+  margin: 20px;
   list-style: none;
   position: relative;
 }
 .column button {
   border-radius: 5px;
-
+}
+.column-card-list {
+  min-height: 50px;
 }
 .column-title {
   background-color: #FAFCF4;
@@ -134,4 +136,7 @@ font-family: 'Lato', sans-serif;
   margin-bottom: 5px;
   border: 2px solid #808080;
   sbackground-color: #EEE8AA;
+}
+ul {
+  padding: 0;
 }
